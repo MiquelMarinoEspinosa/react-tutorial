@@ -11,3 +11,9 @@ Access to docker container
 ```
 make shell
 ```
+
+Create project skeleton
+
+```
+npm create vite@4.1.0
+```
