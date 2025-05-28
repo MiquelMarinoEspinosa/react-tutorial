@@ -11,17 +11,3 @@ Access to docker container
 ```
 make shell
 ```
-
-Init the project inside the container
-```
-npm init
-```
-
-Packages installed
-```
-npm install --save-dev jest
-npm install --save-dev @babel/preset-typescript
-npm install --save-dev @babel/preset-env
-npm install --save-dev @jest/globals
-npm install --save-dev @types/jest
-```
