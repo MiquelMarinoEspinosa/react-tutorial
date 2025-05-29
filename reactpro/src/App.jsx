@@ -1,7 +1,14 @@
 import Hello from "./components/Hello";
 
 function App() {
-  return <Hello />;
+  return (
+    <div className="App">
+      <Hello />
+      <Hello />
+      <Hello />
+      <Hello />
+    </div>
+  );
 }
 
-export default App
+export default App;
